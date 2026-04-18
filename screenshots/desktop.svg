@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1c7a" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#1a0b3a"/>
+      <stop offset="1" stop-color="#0b0620"/>
+    </linearGradient>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e0f46"/>
+      <stop offset="0.5" stop-color="#2a1658"/>
+      <stop offset="1" stop-color="#140832"/>
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#e8c37a" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#e8c37a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mist" cx="0.3" cy="0.4" r="0.5">
+      <stop offset="0" stop-color="#aa70e0" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#aa70e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#mist)"/>
+
+  <!-- stars -->
+  <g fill="#fff" opacity="0.55">
+    <circle cx="140"  cy="120" r="1.5"/>
+    <circle cx="420"  cy="80"  r="1"/>
+    <circle cx="880"  cy="140" r="1.5"/>
+    <circle cx="1240" cy="100" r="1"/>
+    <circle cx="1500" cy="200" r="1"/>
+    <circle cx="80"   cy="520" r="1"/>
+    <circle cx="1520" cy="620" r="1.5"/>
+    <circle cx="360"  cy="840" r="1"/>
+    <circle cx="1140" cy="820" r="1"/>
+  </g>
+
+  <!-- Title -->
+  <text x="800" y="130" text-anchor="middle" font-family="Georgia,serif" font-size="48" font-weight="700" fill="#f4d98a" letter-spacing="6">✦  WHISPERING ARCANA  ✦</text>
+  <text x="800" y="175" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-style="italic" fill="#c9bfa6">A gentle tarot reading for the heart that's listening</text>
+
+  <!-- Theme heading -->
+  <text x="800" y="250" text-anchor="middle" font-family="Georgia,serif" font-size="34" font-weight="700" fill="#f4d98a" letter-spacing="4">💞 LOVE READING 💞</text>
+  <text x="800" y="290" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-style="italic" fill="#c9bfa6">Here's what love is whispering to you today.</text>
+
+  <!-- Three cards in a row -->
+  <!-- PAST -->
+  <text x="380" y="360" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#e8c37a" letter-spacing="5">PAST</text>
+  <text x="380" y="384" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-style="italic" fill="#c9bfa6">what brought you here</text>
+  <g transform="translate(280 410)">
+    <rect width="200" height="320" rx="10" fill="url(#cardbg)" stroke="#e8c37a" stroke-width="2"/>
+    <rect x="8" y="8" width="184" height="304" rx="6" fill="url(#cardGlow)" stroke="rgba(232,195,122,0.35)" stroke-width="1"/>
+    <text x="100" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#a88a50" letter-spacing="5">VIII</text>
+    <text x="100" y="150" text-anchor="middle" font-size="80">🦁</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="500" fill="#f4d98a" letter-spacing="2">STRENGTH</text>
+    <text x="100" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">courage · gentleness</text>
+    <text x="100" y="276" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">inner power</text>
+  </g>
+  <text x="380" y="770" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">Your open heart is your</text>
+  <text x="380" y="792" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">greatest strength.</text>
+
+  <!-- PRESENT -->
+  <text x="800" y="360" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#e8c37a" letter-spacing="5">PRESENT</text>
+  <text x="800" y="384" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-style="italic" fill="#c9bfa6">where you stand now</text>
+  <g transform="translate(700 410)">
+    <rect width="200" height="320" rx="10" fill="url(#cardbg)" stroke="#e8c37a" stroke-width="2"/>
+    <rect x="8" y="8" width="184" height="304" rx="6" fill="url(#cardGlow)" stroke="rgba(232,195,122,0.35)" stroke-width="1"/>
+    <text x="100" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#a88a50" letter-spacing="5">XIX</text>
+    <text x="100" y="150" text-anchor="middle" font-size="80">☀️</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="500" fill="#f4d98a" letter-spacing="2">THE SUN</text>
+    <text x="100" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">joy · vitality</text>
+    <text x="100" y="276" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">success</text>
+  </g>
+  <text x="800" y="770" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">Pure, warm love is</text>
+  <text x="800" y="792" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">radiating in your life.</text>
+
+  <!-- FUTURE -->
+  <text x="1220" y="360" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#e8c37a" letter-spacing="5">FUTURE</text>
+  <text x="1220" y="384" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-style="italic" fill="#c9bfa6">what is unfolding</text>
+  <g transform="translate(1120 410)">
+    <rect width="200" height="320" rx="10" fill="url(#cardbg)" stroke="#e8c37a" stroke-width="2"/>
+    <rect x="8" y="8" width="184" height="304" rx="6" fill="url(#cardGlow)" stroke="rgba(232,195,122,0.35)" stroke-width="1"/>
+    <text x="100" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#a88a50" letter-spacing="5">XVII</text>
+    <text x="100" y="150" text-anchor="middle" font-size="80">⭐</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="500" fill="#f4d98a" letter-spacing="2">THE STAR</text>
+    <text x="100" y="256" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">hope · renewal</text>
+    <text x="100" y="276" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#c9bfa6">inspiration</text>
+  </g>
+  <text x="1220" y="770" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">Hope and healing</text>
+  <text x="1220" y="792" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#f3ecd8">are flowing in.</text>
+
+  <!-- Footer -->
+  <text x="800" y="870" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#8d8570">✦ Made with hope — for entertainment and reflection ✦</text>
+</svg>

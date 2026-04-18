@@ -1,5 +1,5 @@
 // Cache-first service worker — the whole app works offline.
-const CACHE = "arcana-v3";
+const CACHE = "arcana-v4";
 const ASSETS = [
   "./",
   "./index.html",
@@ -12,7 +12,8 @@ const ASSETS = [
   "./icon-512.png",
   "./manifest.json",
   "./screenshots/welcome.svg",
-  "./screenshots/reading.svg"
+  "./screenshots/reading.svg",
+  "./screenshots/desktop.svg"
 ];
 
 self.addEventListener("install", (event) => {

@@ -12,6 +12,7 @@
   "background_color": "#0b0620",
   "theme_color": "#2a1658",
   "lang": "en",
+  "dir": "ltr",
   "categories": ["lifestyle", "entertainment"],
   "icons": [
     {
@@ -59,6 +60,13 @@
       "type": "image/svg+xml",
       "form_factor": "narrow",
       "label": "Love reading with The Sun revealed"
+    },
+    {
+      "src": "screenshots/desktop.svg",
+      "sizes": "1600x900",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Three-card love reading on desktop"
     }
   ]
 }
