@@ -1,0 +1,24 @@
+{
+  "name": "tarot-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-icons": "node scripts/build-icons.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvoigt/tarot-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/melvoigt/tarot-app/issues"
+  },
+  "homepage": "https://github.com/melvoigt/tarot-app#readme",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

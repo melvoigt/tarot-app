@@ -1,5 +1,5 @@
 // Cache-first service worker — the whole app works offline.
-const CACHE = "arcana-v2";
+const CACHE = "arcana-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,6 +8,8 @@ const ASSETS = [
   "./cards.js",
   "./audio.js",
   "./icon.svg",
+  "./icon-192.png",
+  "./icon-512.png",
   "./manifest.json",
   "./screenshots/welcome.svg",
   "./screenshots/reading.svg"
