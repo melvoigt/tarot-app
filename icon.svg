@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1658"/>
+      <stop offset="0.55" stop-color="#1a0b3a"/>
+      <stop offset="1" stop-color="#0b0620"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8c37a" stop-opacity="0.45"/>
+      <stop offset="0.6" stop-color="#e8c37a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#e8c37a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4d98a"/>
+      <stop offset="1" stop-color="#c9a560"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background (maskable-safe) -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Soft central glow -->
+  <circle cx="256" cy="256" r="220" fill="url(#glow)"/>
+
+  <!-- Content lives within inner 60% (safe zone for maskable crops) -->
+  <g transform="translate(256 256)">
+    <!-- Outer 8-pointed star -->
+    <path d="M 0 -120 L 22 -22 L 120 0 L 22 22 L 0 120 L -22 22 L -120 0 L -22 -22 Z"
+          fill="url(#gold)"/>
+    <!-- Diagonal ghost star for depth -->
+    <path d="M 0 -95 L 13 -13 L 95 0 L 13 13 L 0 95 L -13 13 L -95 0 L -13 -13 Z"
+          fill="url(#gold)" opacity="0.35" transform="rotate(22.5)"/>
+    <!-- Center dot -->
+    <circle r="10" fill="#fff2cf"/>
+  </g>
+
+  <!-- Corner sparkles (mostly trimmed on maskable — that's fine) -->
+  <g fill="#e8c37a" opacity="0.85" font-family="Georgia, serif" font-size="26">
+    <text x="60"  y="84">✦</text>
+    <text x="430" y="84">✦</text>
+    <text x="60"  y="460">✦</text>
+    <text x="430" y="460">✦</text>
+  </g>
+</svg>

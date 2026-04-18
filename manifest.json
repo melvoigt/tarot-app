@@ -1,0 +1,37 @@
+{
+  "name": "Whispering Arcana",
+  "short_name": "Arcana",
+  "description": "A gentle tarot reading for the heart that's listening.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0620",
+  "theme_color": "#2a1658",
+  "lang": "en",
+  "categories": ["lifestyle", "entertainment"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/welcome.svg",
+      "sizes": "540x960",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Welcome screen"
+    },
+    {
+      "src": "screenshots/reading.svg",
+      "sizes": "540x960",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Love reading with The Sun revealed"
+    }
+  ]
+}

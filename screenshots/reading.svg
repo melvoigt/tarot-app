@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1c7a" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#1a0b3a"/>
+      <stop offset="1" stop-color="#0b0620"/>
+    </linearGradient>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e0f46"/>
+      <stop offset="0.5" stop-color="#2a1658"/>
+      <stop offset="1" stop-color="#140832"/>
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#e8c37a" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#e8c37a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="540" height="960" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g fill="#fff" opacity="0.5">
+    <circle cx="60"  cy="70"  r="1.5"/>
+    <circle cx="440" cy="90"  r="1"/>
+    <circle cx="500" cy="200" r="1"/>
+    <circle cx="30"  cy="420" r="1"/>
+    <circle cx="510" cy="700" r="1.5"/>
+    <circle cx="250" cy="900" r="1"/>
+  </g>
+
+  <!-- Theme heading -->
+  <text x="270" y="110" text-anchor="middle" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f4d98a" letter-spacing="3">💞 LOVE READING 💞</text>
+  <text x="270" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-style="italic" fill="#c9bfa6">Here's what love is whispering to you today.</text>
+
+  <!-- Card 1 (revealed) -->
+  <text x="270" y="210" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8c37a" letter-spacing="4">PRESENT</text>
+  <text x="270" y="232" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#c9bfa6">where you stand now</text>
+
+  <g transform="translate(170 260)">
+    <rect width="200" height="320" rx="10" fill="url(#cardbg)" stroke="#e8c37a" stroke-width="2"/>
+    <rect x="8" y="8" width="184" height="304" rx="6" fill="url(#cardGlow)" stroke="rgba(232,195,122,0.35)" stroke-width="1"/>
+    <text x="100" y="50" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#a88a50" letter-spacing="5">XIX</text>
+    <text x="100" y="150" text-anchor="middle" font-size="80">☀️</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="500" fill="#f4d98a" letter-spacing="2">THE SUN</text>
+    <text x="100" y="260" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#c9bfa6">joy · vitality ·</text>
+    <text x="100" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#c9bfa6">success</text>
+  </g>
+
+  <!-- reading text under card -->
+  <text x="270" y="630" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#f3ecd8">Pure, warm love is radiating in your</text>
+  <text x="270" y="656" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#f3ecd8">life. Let yourself glow — and let</text>
+  <text x="270" y="682" text-anchor="middle" font-family="Georgia,serif" font-size="19" fill="#f3ecd8">yourself be adored.</text>
+
+  <!-- Hint at next card below (teaser) -->
+  <text x="270" y="760" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8c37a" letter-spacing="4">FUTURE</text>
+  <text x="270" y="782" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#c9bfa6">what is unfolding</text>
+
+  <g transform="translate(170 810)">
+    <rect width="200" height="150" rx="10" fill="url(#cardbg)" stroke="#e8c37a" stroke-width="2"/>
+    <rect x="8" y="8" width="184" height="134" rx="6" fill="none" stroke="rgba(232,195,122,0.35)" stroke-width="1"/>
+    <text x="100" y="80" text-anchor="middle" font-size="40" fill="#f4d98a">✦</text>
+    <text x="100" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#e8c37a" letter-spacing="3">TAP TO REVEAL</text>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Whispering Arcana — Tarot Readings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" type="image/svg+xml" href="icon.svg" />
+<link rel="apple-touch-icon" href="icon.svg" />
+<meta name="theme-color" content="#2a1658" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Arcana" />
+</head>
+<body>
+<div class="mist"></div>
+<div class="mist mist-2"></div>
+<div class="shimmer"></div>
+<div class="stars"></div>
+<div class="stars stars-2"></div>
+
+<button id="sound-toggle" class="sound-toggle" aria-pressed="false" aria-label="Toggle ambient sound" title="Ambient sound: off">
+  <span class="sound-icon sound-icon-on" aria-hidden="true">♪</span>
+  <span class="sound-icon sound-icon-off" aria-hidden="true">⌀</span>
+</button>
+
+<button id="install-btn" class="install-btn" hidden>✦ Install App</button>
+
+<main class="app">
+  <header class="masthead">
+    <h1>Whispering Arcana</h1>
+    <p class="tagline">A gentle tarot reading for the heart that's listening</p>
+  </header>
+
+  <!-- Screen 1: Welcome -->
+  <section class="screen active" id="screen-welcome">
+    <p class="lede">Take a breath. Think of a question, or simply let the cards speak to what your soul needs most today.</p>
+    <button class="btn-primary" data-action="go-theme">Begin Your Reading</button>
+  </section>
+
+  <!-- Screen 2: Theme picker -->
+  <section class="screen" id="screen-theme">
+    <h2>What area of life shall we explore?</h2>
+    <div class="theme-grid">
+      <button class="theme-card" data-theme="love">
+        <span class="theme-icon">💞</span>
+        <span class="theme-name">Love</span>
+        <span class="theme-sub">Connection &amp; the heart</span>
+      </button>
+      <button class="theme-card" data-theme="career">
+        <span class="theme-icon">✨</span>
+        <span class="theme-name">Career</span>
+        <span class="theme-sub">Work &amp; purpose</span>
+      </button>
+      <button class="theme-card" data-theme="spiritual">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-name">Spiritual</span>
+        <span class="theme-sub">Soul &amp; inner path</span>
+      </button>
+      <button class="theme-card" data-theme="general">
+        <span class="theme-icon">🌟</span>
+        <span class="theme-name">General</span>
+        <span class="theme-sub">Whatever you need</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Screen 3: Spread picker -->
+  <section class="screen" id="screen-spread">
+    <h2>Choose your spread</h2>
+    <div class="spread-grid">
+      <button class="spread-card" data-spread="1">
+        <span class="spread-title">Daily Whisper</span>
+        <span class="spread-count">1 card</span>
+        <span class="spread-desc">A single insight to carry with you today.</span>
+      </button>
+      <button class="spread-card" data-spread="3">
+        <span class="spread-title">Past · Present · Future</span>
+        <span class="spread-count">3 cards</span>
+        <span class="spread-desc">The arc of your unfolding story.</span>
+      </button>
+    </div>
+    <button class="btn-text" data-action="back-theme">← Choose a different theme</button>
+  </section>
+
+  <!-- Screen 4: Reading -->
+  <section class="screen" id="screen-reading">
+    <h2 id="reading-title">Your Reading</h2>
+    <p class="reading-context" id="reading-context"></p>
+    <div class="cards" id="cards"></div>
+    <div class="reading-actions" id="reading-actions" hidden>
+      <button class="btn-primary" data-action="new-reading">New Reading</button>
+      <button class="btn-text" data-action="same-theme">Draw Again (same theme)</button>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>✦ Made with hope — for entertainment and reflection ✦</p>
+</footer>
+
+<script src="cards.js"></script>
+<script src="audio.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

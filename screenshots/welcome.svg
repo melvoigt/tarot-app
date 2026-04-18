@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1c7a" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#1a0b3a"/>
+      <stop offset="1" stop-color="#0b0620"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#e8c37a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#e8c37a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <rect width="540" height="960" fill="url(#glow)"/>
+
+  <!-- stars -->
+  <g fill="#fff" opacity="0.6">
+    <circle cx="60"  cy="80"  r="1.5"/>
+    <circle cx="180" cy="140" r="1"/>
+    <circle cx="340" cy="60"  r="1"/>
+    <circle cx="470" cy="180" r="1.5"/>
+    <circle cx="80"  cy="260" r="1"/>
+    <circle cx="500" cy="340" r="1"/>
+    <circle cx="40"  cy="700" r="1"/>
+    <circle cx="510" cy="760" r="1.5"/>
+    <circle cx="220" cy="880" r="1"/>
+  </g>
+  <g fill="#e8c37a" opacity="0.7">
+    <circle cx="120" cy="400" r="1"/>
+    <circle cx="420" cy="520" r="1"/>
+  </g>
+
+  <!-- title with decorative stars -->
+  <text x="60"  y="160" font-family="Georgia,serif" font-size="26" fill="#e8c37a">✦</text>
+  <text x="270" y="160" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#f4d98a" letter-spacing="4">WHISPERING</text>
+  <text x="270" y="212" text-anchor="middle" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#f4d98a" letter-spacing="4">ARCANA</text>
+  <text x="460" y="212" font-family="Georgia,serif" font-size="26" fill="#e8c37a">✦</text>
+  <text x="270" y="258" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-style="italic" fill="#c9bfa6">A gentle tarot reading for</text>
+  <text x="270" y="286" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-style="italic" fill="#c9bfa6">the heart that's listening</text>
+
+  <!-- lede -->
+  <text x="270" y="460" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-style="italic" fill="#c9bfa6">Take a breath. Think of a question,</text>
+  <text x="270" y="494" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-style="italic" fill="#c9bfa6">or simply let the cards speak</text>
+  <text x="270" y="528" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-style="italic" fill="#c9bfa6">to what your soul needs most today.</text>
+
+  <!-- Begin button -->
+  <rect x="130" y="620" width="280" height="72" rx="2" fill="rgba(232,195,122,0.08)" stroke="#e8c37a" stroke-width="1"/>
+  <text x="270" y="668" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="500" fill="#f4d98a" letter-spacing="4">BEGIN YOUR READING</text>
+
+  <!-- footer -->
+  <text x="270" y="920" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#8d8570">✦ Made with hope — for entertainment and reflection ✦</text>
+</svg>
